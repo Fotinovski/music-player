@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music player 🎶</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="music">
+        <div class="img-container">
+        <img width="100%" src="./assets/thelight.png" alt="" />
+        </div>
+        <div class="info">
+          <h1>Station:Innermost - The Light</h1>
+          <p>Album name (2022)</p>
+          <div id="waveform"></div>
+          <div class="controls">
+            <i class="fas fa-play-circle"></i>
+            <i class="fas fa-stop-circle"></i>
+            <i class="fas fa-volume-up"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
